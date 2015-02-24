@@ -1,0 +1,69 @@
+body {
+ 
+  background: url(metermeatballleft.png) right top no-repeat, url(metermeatball.png) -1.5cm top no-repeat, url(spaghettiback.jpg) left top no-repeat;
+  margin: -1px;
+}
+
+
+#gameheader {
+  background-color: #F1E0FF;
+  border: 2px double;
+  box-shadow: 10px 10px 5px #888888;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#gameheader ul li {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+
+#raceresults {
+  background-color: #F1E0FF;
+  border: 2px double;
+  box-shadow: 10px 10px 5px #888888;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+
+
+#textadd {
+  font-family: Georgia, Serif;
+  font-size: 150;
+  font-weight: bolder;
+  background: url(spookedback.gif)
+  border: 2px double;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px #888888;
+  padding: 5px;
+}
+
+span {
+  font-family: Georgia, Serif;
+  font-size: 200%;
+  font-weight: bolder;
+  background-color: white;
+  color: #333333;
+}
+
+div {
+    width: 50.5px;
+    height: 50.5px;
+    background-image: url("spaghett.png");
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+div:hover {
+    width: 225px;
+    height: 353px;
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
